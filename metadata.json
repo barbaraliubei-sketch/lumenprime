@@ -1,0 +1,10 @@
+{
+  "name": "Remix Lumen - Socratic Learning OS",
+  "description": "The Socratic Operating System for Human Flourishing. Master anything from first principles with adaptive placement diagnostic, fidgetable informers, intelligence graph, and Socratic course synthesizer.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
