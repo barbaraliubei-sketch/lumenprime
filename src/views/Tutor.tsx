@@ -1,13 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import {
-  Send,
-  Loader2,
-  Lightbulb,
-  Search,
-  Trash2,
-  User,
-  Sparkle,
-} from 'lucide-react';
+import { Send, Loader as Loader2, Lightbulb, Search, Trash2, User, Sparkle } from 'lucide-react';
 import { sendChatMessage } from '../lib/api';
 import { supabase, type ChatMessage } from '../lib/supabase';
 

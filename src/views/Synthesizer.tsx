@@ -1,19 +1,5 @@
 import { useState, useEffect } from 'react';
-import {
-  Sparkles,
-  ChevronRight,
-  Loader2,
-  Lock,
-  Unlock,
-  Atom,
-  BookOpen,
-  Clock,
-  Wand2,
-  HelpCircle,
-  Save,
-  Check,
-  Layers,
-} from 'lucide-react';
+import { Sparkles, ChevronRight, Loader as Loader2, Lock, Clock as Unlock, Atom, BookOpen, Clock, Wand as Wand2, Circle as HelpCircle, Save, Check, Layers } from 'lucide-react';
 import { synthesizeCourse, type SynthResponse } from '../lib/api';
 import { supabase, type SynthesizedPath, type SynthModule } from '../lib/supabase';
 

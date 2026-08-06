@@ -1,15 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import {
-  Brain,
-  ChevronRight,
-  Lightbulb,
-  CheckCircle2,
-  XCircle,
-  Loader2,
-  RotateCcw,
-  TrendingUp,
-  Gauge,
-} from 'lucide-react';
+import { Brain, ChevronRight, Lightbulb, CircleCheck as CheckCircle2, Circle as XCircle, Loader as Loader2, RotateCcw, TrendingUp, Gauge } from 'lucide-react';
 import { generateDiagnosticQuestion, getHint, type DiagnosticQuestion } from '../lib/api';
 import { supabase, type Profile } from '../lib/supabase';
 
